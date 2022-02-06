@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
 
-@Service
+@Service // This service deals with token generation and extraction. Token related util
 public class JwtUtil {
 
     private String secret = "empiretech";
